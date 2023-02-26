@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.content-wrapper {
+  background-image: url(./images/article1.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  /* background-attachment: fixed; */
+  background-size: cover;
+  height: 100vh;
+
+  color: white;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 2.5rem 2rem;
+  font-size: 20px;
+}
+.navigation {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+}
+
+.navigation a {
+  text-decoration: none;
+  color: white;
+}
+.navigation li {
+  margin: 0 1rem;
+}
+
+.article {
+  background-image: url(./images/malena-grey.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 500px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.artice-content {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.artice-content h3 {
+  margin: 2rem 0;
+}
+
+.artice-content p {
+  text-align: center;
+  width: 65%;
+  font-size: 20px;
+}
+
+.article-img {
+  max-width: 450px;
+  width: 100%;
+}
