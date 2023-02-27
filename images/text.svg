@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="297" height="97" viewBox="0 0 297 97">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 48px;
+        font-family: Neville;
+      }
+
+      .cls-1, .cls-2 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        font-size: 32px;
+        font-family: "FONTSPRING DEMO - Organetto Bold";
+      }
+    </style>
+  </defs>
+  <text id="Signature_Recipes" data-name="Signature Recipes" class="cls-1" x="23" y="49">Signature Recipes</text>
+  <text id="REINVENTED" class="cls-2" x="50" y="87">REINVENTED</text>
+</svg>

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="297" height="97" viewBox="0 0 297 97">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 60px;
+        font-family: Neville;
+      }
+
+      .cls-2 {
+        font-size: 28px;
+        fill: #b99c56;
+        font-family: "FONTSPRING DEMO - Organetto Bold";
+      }
+    </style>
+  </defs>
+  <text id="Our_Story" data-name="Our  Story" class="cls-1" x="58" y="49">Our  Story</text>
+  <text id="Begins" class="cls-2" x="97" y="88">Begins</text>
+</svg>

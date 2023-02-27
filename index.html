@@ -6,25 +6,29 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Welcome to our bakery, where we specialize in crafting fresh, delicious baked goods using only the finest ingredients. From flaky croissants to decadent cakes and everything in between, our selection is sure to satisfy your sweet tooth. Come visit us today and experience the aroma of freshly baked bread, the warmth of our cozy atmosphere, and the friendly service of our staff.">
   <link rel="stylesheet" type="text/css" href="./styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500;600;700&display=swap" rel="stylesheet">
   <title>Legendary Guisine Bakery</title>
 </head>
 <body>
+
   <div class="content-wrapper">
     <nav>
-        <span class="logo">Kobisto</span>
-        <ul class="navigation">
-          <a href="#"><li>Home</li></a>
-          <a href="#"><li>Menus</li></a>
-          <a href="#"><li>Reservations</li></a>
-          <a href="#"><li>About</li></a>
-          <a href="#"><li>Contact</li></a>
-        </ul>
-      </nav>
+      <span class="logo">Kobisto</span>
+      <ul class="navigation">
+        <a href="#"><li>Home</li></a>
+        <a href="#"><li>Menus</li></a>
+        <a href="#"><li>Reservations</li></a>
+        <a href="#"><li>About</li></a>
+        <a href="#"><li>Contact</li></a>
+      </ul>
+    </nav>
   </div>
 
   <article class="article">
     <div class="artice-content">
-      <h3>Our story begins</h3>
+      <img class="article-title" src="./images/ourStory.svg" alt="Article title">
       <p>Exercitation photo booth stumptown tote bag Banksy, 
         elit small batch freegan sed. Craft beer elit seitan exercitation,
         photo booth et 8-bit kale chips proident
@@ -32,8 +36,106 @@
         Marfa eiusmod Pinterest in do umami readymade.
       </p>
     </div>
-    <div class="artice-content article-img-container">
+    <div class="artice-content">
       <img class="article-img" src="./images/art.jpg" alt="Image of chocolate">
+    </div>
+  </article>
+
+  <article class="article-bg first-article">
+    <div class="article-bg-content">
+      <img src="./images/text.svg" alt="Article title">
+      <p>Exercitation photo booth stumptown tote bag Banksy, 
+        elit small batch freegan sed. Craft beer elit seitan exercitation,
+        photo booth et 8-bit kale chips proident
+        chillwave deep v lobrum. Aliquip veniam delectus, 
+        Marfa eiusmod Pinterest in do umami readymade.
+      </p>
+    </div>
+  </article>
+
+  <article class="article menu">
+      <img class="menu-title" src="./images/bg-article2.svg" alt="Article title">
+    <div class="menu-items-container">
+      <div class="menu-items">
+        <div class="menu-item">
+          <p class="menu-item-title">
+            Curry-tamarillor.................................................................$7.95
+          </p>
+          <span class="menu-item-desc">Cornish mackerel, marinated tomatoes, fragrant curry, tamarillo</span>
+        </div>
+        <div class="menu-item">
+          <p class="menu-item-title">Roasted stek roulade........................................................$8.75</p>
+          <span class="menu-item-desc">Mint parsley with apple cinder vinegar, salt, sugar & spices</span>
+        </div>
+        <div class="menu-item">
+          <p class="menu-item-title">CAMPO LINDO CHICKEN...........................................................$12.75</p>
+          <span class="menu-item-desc">Cfava beans, artchokes, farro & black current gastrique</span>
+        </div>
+        <div class="menu-item">
+          <p class="menu-item-title">Poulet cordon bleu.............................................................$14.95</p>
+          <span class="menu-item-desc">Paupiette of chicken, blue cheese & ham, rosemary salt and beans</span>
+        </div>
+      </div>
+
+      <div class="menu-items">
+        <div class="menu-item">
+          <p class="menu-item-title">
+            Curry-tamarillor.................................................................$7.95
+          </p>
+          <span class="menu-item-desc">Cornish mackerel, marinated tomatoes, fragrant curry, tamarillo</span>
+        </div>
+        <div class="menu-item">
+          <p class="menu-item-title">Roasted stek roulade........................................................$8.75</p>
+          <span class="menu-item-desc">Mint parsley with apple cinder vinegar, salt, sugar & spices</span>
+        </div>
+        <div class="menu-item">
+          <p class="menu-item-title">CAMPO LINDO CHICKEN...........................................................$12.75</p>
+          <span class="menu-item-desc">CFava beans, artchokes, farro & black current gastrique</span>
+        </div>
+        <div class="menu-item">
+          <p class="menu-item-title">Poulet cordon bleu.............................................................$14.95</p>
+          <span class="menu-item-desc">Paupiette of chicken, blue cheese & ham, rosemary salt and beans</span>
+        </div>
+      </div>
+    </div>
+  </article>
+
+
+  <article class="icons">
+      <div class="category">
+        <img class="category-icon" src="./icons/dish.svg" alt="Specialities icon">
+        <span class="category-title">Specialities</span>
+      </div>
+      <div class="category">
+        <img class="category-icon" src="./icons/corndog.svg" alt="Appetizers icon">
+        <span class="category-title">Appetizers</span>
+      </div>
+      <div class="category">
+        <img class="category-icon" src="./icons/hamburger.svg" alt="Main Meals icon">
+        <span class="category-title">Main Meals</span>
+      </div>
+      <div class="category">
+        <img class="category-icon" src="./icons/cake.svg" alt="Desserts icon">
+        <span class="category-title">Desserts</span>
+      </div>
+      <div class="category">
+        <img class="category-icon" src="./icons/drink.svg" alt="Drinks icon">
+        <span class="category-title">Drinks</span>
+      </div>
+  </article> 
+
+  <article class="article">
+    <div class="artice-content">
+      <img class="article-img restaurant" src="./images/restaurant.jpg" alt="Image of chocolate">
+    </div>
+    <div class="artice-content">
+      <img class="article-title" src="./images/bookNow.svg" alt="Article title">
+      <p>Exercitation photo booth stumptown tote bag Banksy, 
+        elit small batch freegan sed. Craft beer elit seitan exercitation,
+        photo booth et 8-bit kale chips proident
+        chillwave deep v lobrum. Aliquip veniam delectus, 
+        Marfa eiusmod Pinterest in do umami readymade.
+      </p>
     </div>
   </article>
 </body>

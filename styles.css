@@ -1,15 +1,14 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: 'Roboto Slab', serif;
 }
 .content-wrapper {
   background-image: url(./images/article1.png);
   background-repeat: no-repeat;
   background-position: center center;
-  /* background-attachment: fixed; */
   background-size: cover;
   height: 100vh;
-
   color: white;
 }
 
@@ -19,6 +18,7 @@ nav {
   justify-content: space-between;
   padding: 2.5rem 2rem;
   font-size: 20px;
+  text-transform: uppercase;
 }
 .navigation {
   list-style: none;
@@ -38,7 +38,7 @@ nav {
   background-image: url(./images/malena-grey.jpg);
   background-repeat: no-repeat;
   background-size: 100% 100%;
-  height: 500px;
+  min-height: 500px;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -49,6 +49,13 @@ nav {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
+}
+
+.article-bg-content {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
 }
 
@@ -65,4 +72,91 @@ nav {
 .article-img {
   max-width: 450px;
   width: 100%;
+}
+
+
+.article-bg {
+  background-image: url(./images/erick-chevez--nw1y8rkrek-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100vh;
+  background-size: 100%;
+  color: white;
+  display: flex;
+  place-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+.article-title {
+  margin: 2rem 0;
+}
+
+.menu {
+  display: flex;
+  place-content: center;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 6rem;
+}
+
+.menu-title {
+  margin: 4rem 0;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+.menu-items-container {
+  display: flex;
+  flex-direction: row;
+  gap: 5rem;
+}
+
+.menu-items {
+  text-align: start;
+}
+
+.menu-item {
+  line-height: 1.5rem;
+}
+
+.menu-item-title {
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.icons {
+  background-image: url(./images/icon-bg.png);
+  height: 200px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.category-icon {
+  height: 80px;
+}
+
+.category {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.category-title {
+  color: white;
+}
+
+.restaurant {
+  max-width: 650px;
 }
