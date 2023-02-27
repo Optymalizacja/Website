@@ -59,14 +59,17 @@ nav {
   justify-content: center;
 }
 
+
+
 .artice-content h3 {
   margin: 2rem 0;
 }
 
-.artice-content p {
+.artice-content h4 {
   text-align: center;
+  font-weight: 300;
   width: 65%;
-  font-size: 20px;
+  font-size: 16px;
 }
 
 .article-img {
