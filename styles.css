@@ -3,6 +3,10 @@
   padding: 0;
   font-family: 'Roboto Slab', serif;
 }
+
+body {
+  background-image: url(./images/malena-grey.jpg);
+}
 .content-wrapper {
   background-image: url(./images/article1.png);
   background-repeat: no-repeat;
@@ -35,7 +39,7 @@ nav {
 }
 
 .article {
-  background-image: url(./images/malena-grey.jpg);
+  /* background-image: url(./images/malena-grey.jpg); */
   background-repeat: no-repeat;
   background-size: 100% 100%;
   min-height: 500px;
@@ -70,6 +74,10 @@ nav {
   font-weight: 300;
   width: 65%;
   font-size: 16px;
+}
+
+.article-bg-content h4 {
+  font-weight: 300;
 }
 
 .article-img {
@@ -162,4 +170,60 @@ nav {
 
 .restaurant {
   max-width: 650px;
+}
+
+
+
+@media (max-width: 966px) {
+  .article, .menu-items-container { 
+    flex-direction: column;
+    align-items: center;
+  }
+  .artice-content {
+    margin: 2rem 0;
+  }
+
+  .reservation, menu {
+    flex-direction: column-reverse;
+  }
+
+  .article-bg {
+    background-attachment:initial;
+  }
+
+  .article-bg-content,.artice-content {
+    width: 70%;
+  }
+
+  .artice-content h4 {
+    width: 100%;
+  }
+
+  .menu-items, .category-title {
+    font-size: 14px;
+  }
+
+  .category-icon {
+    height: 40px;
+  }
+
+  .icons {
+    height: 150px;
+  }
+
+  .article-bg {
+    height: 60vh;
+  }
+
+  .menu-title {
+    width: 80%;
+  }
+
+  .navigation {
+    display: none;
+  }
+  
+  .content-wrapper {
+    height: 50vh;
+  }
 }
